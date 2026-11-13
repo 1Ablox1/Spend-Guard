@@ -24,19 +24,19 @@ npm run dev
 
 Open the local URL Vite prints (Safari or Chrome). Set **Cash on hand** to your real balance first.
 
-### Phone (yes — host it)
+### Phone (hosted — use this)
 
-Your phone cannot usefully “install” this from GitHub alone. **Host the built site**, then open the HTTPS link in Safari.
+**Live app:** https://1ablox1.github.io/Spend-Guard/
 
-1. Open the hosted URL in **Safari**
-2. Tap **Share** → **Add to Home Screen**
-3. Data stays on your phone browser (`localStorage`) — no account needed
+1. Open that link in **Safari** on your iPhone  
+2. Tap **Share** → **Add to Home Screen**  
+3. Your spends stay on the phone (`localStorage`) — not uploaded to GitHub  
 
-**Why host:** GitHub repo is private (free GitHub Pages needs a public repo). Use **Vercel** / **Netlify** (free) linked to this repo, or make the repo public and enable Pages.
+Rebuild + republish after code changes: `npm run deploy`
 
-Same Wi‑Fi only (no public URL): on Mac/PC run `npm run dev -- --host`, then open `http://<your-computer-ip>:5173/` on the phone. Hosting is better so it works on cellular too.
+Same Wi‑Fi only (no public URL): `npm run dev -- --host`, then open `http://<your-computer-ip>:5173/` on the phone.
 
-It is a web app, not an App Store native build.
+It is a web app, not an App Store native build. The GitHub repo is public so Pages can host it (no personal money data is in the source).
 
 ### WeChat wire
 

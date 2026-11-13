@@ -4,6 +4,6 @@ import { defineConfig } from 'vite'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  // Root path for Vercel / any static host. Use '/Spend-Guard/' only for GitHub project Pages.
-  base: '/',
+  // GitHub Pages: https://1ablox1.github.io/Spend-Guard/
+  base: '/Spend-Guard/',
 })
