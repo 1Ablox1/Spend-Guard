@@ -24,7 +24,19 @@ npm run dev
 
 Open the local URL Vite prints (Safari or Chrome). Set **Cash on hand** to your real balance first.
 
-**iPhone / iPad:** run the app on a Mac (or deploy the `dist` build), open the site in Safari → Share → **Add to Home Screen**. It is a web app, not a native App Store build yet.
+### Phone (yes — host it)
+
+Your phone cannot usefully “install” this from GitHub alone. **Host the built site**, then open the HTTPS link in Safari.
+
+1. Open the hosted URL in **Safari**
+2. Tap **Share** → **Add to Home Screen**
+3. Data stays on your phone browser (`localStorage`) — no account needed
+
+**Why host:** GitHub repo is private (free GitHub Pages needs a public repo). Use **Vercel** / **Netlify** (free) linked to this repo, or make the repo public and enable Pages.
+
+Same Wi‑Fi only (no public URL): on Mac/PC run `npm run dev -- --host`, then open `http://<your-computer-ip>:5173/` on the phone. Hosting is better so it works on cellular too.
+
+It is a web app, not an App Store native build.
 
 ### WeChat wire
 
