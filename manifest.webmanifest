@@ -1,0 +1,18 @@
+{
+  "name": "Spend Guard",
+  "short_name": "SpendGuard",
+  "description": "Trip wallet agent — watch every yuan until departure",
+  "start_url": "/Spend-Guard/",
+  "scope": "/Spend-Guard/",
+  "display": "standalone",
+  "background_color": "#0c1210",
+  "theme_color": "#0c1210",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
